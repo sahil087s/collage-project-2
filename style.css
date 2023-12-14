@@ -178,7 +178,23 @@ button.white {
     align-items: center;
     width: 100%;
     position: relative;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
+    margin-bottom: 120px;
+}
+
+#feature .feature-box3 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    /* padding-bottom: 120px; */
+    /* margin-bottom: 120px; */
+}
+
+.bg-white {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 25px;
 }
 
 #feature .feature-img {
@@ -227,4 +243,9 @@ button.white {
 
 #feature .feature-details a:hover::after {
     background-color: #0b57d0;
+}
+
+#footer {
+    height: 100vh;
+    width: 100%;
 }
