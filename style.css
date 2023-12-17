@@ -82,6 +82,26 @@ button.white {
     transition: 0.2s;
 }
 
+#loader {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #000;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 10px;
+}
+
+#loader h3 {
+    font-weight: 100;
+    font-size: 2vw;
+    font-family: 'rj';
+}
+
 #header {
     display: flex;
     align-items: center;
@@ -163,11 +183,16 @@ button.white {
     font-size: 56px;
 }
 
-#hero h4 {
+#hero h3 {
     color: #1f1f1f;
     font-weight: 200;
     font-family: 'rj';
     font-size: 22px;
+}
+
+#hero h3 span {
+    display: inline-block;
+    font-family: 'rj';
 }
 
 #feature {
@@ -175,6 +200,15 @@ button.white {
 }
 
 #feature .feature-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    /* padding-bottom: 120px; */
+    margin-bottom: 120px;
+}
+
+#feature .feature-box2 {
     display: flex;
     align-items: center;
     width: 100%;

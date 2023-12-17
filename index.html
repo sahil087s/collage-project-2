@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css"/>
     <script
       src="https://kit.fontawesome.com/1e973724af.js"
       crossorigin="anonymous"
@@ -12,6 +13,11 @@
   </head>
 
   <body>
+    <div id="loader">
+      <h3>Let’s</h3>
+      <h3>Begin</h3>
+      <h3>Today</h3>
+  </div>
     <div id="main">
       <section id="header">
         <a href="./index.html"><img src="" alt="logo" /></a>
@@ -33,12 +39,12 @@
 
       <section id="hero">
         <h1>What’s New in Chrome</h1>
-        <h4>Gets a brand new Chrome extension</h4>
+        <h3><span>Gets</span> <span>a</span> <span>brand</span> <span>new</span> <span>Chrome</span> <span>extension.</span></h3>
       </section>
 
       <section id="feature">
         <div class="feature-box">
-          <div class="feature-details">
+          <div id="an" class="feature-details">
             <span>Chrome</span>
             <h4>What is a Chrome Extension?</h4>
             <p>
@@ -47,7 +53,7 @@
                 help you automate certain functions in your browser, modify
                 existing behaviors, and improve your software's convenience.
             </p>
-            <a href="#">READ MORE</a>
+            <a class="ac" href="#">READ MORE</a>
         </div>
         <div class="feature-img">
             <img
@@ -56,11 +62,11 @@
             />
         </div>
     </div>
-    <div class="feature-box">
+    <div class="feature-box2">
         <div class="feature-img m-right">
             <img src="./images/feature-img/0_7ftPt1OUoJMOqjXN.png" alt="" />
         </div>
-        <div class="feature-details">
+        <div id="an2" class="feature-details">
             <span>function</span>
             <h4>What is the function of Chrome extension?</h4>
             <p>
@@ -71,12 +77,12 @@
               browser provides to web pages, from XMLHttpRequest to JSON to
               HTML5.
             </p>
-            <a href="#">READ MORE</a>
+            <a class="ac2" href="#">READ MORE</a>
           </div>
         </div>
         <div class="bg-white">
           <div class="feature-box3">
-            <div class="feature-details">
+            <div  id="an3"class="feature-details">
              <span>api’s</span>
               <h4>What is an API ?
             </h4>
@@ -88,7 +94,7 @@
                 “talks” to this system via APIs and shows you daily weather
                 updates on your phone.
               </p>
-              <a href="#">READ MORE</a>
+              <a class="ac3" href="#">READ MORE</a>
             </div>
             <div class="feature-img">
               <img src="./images/feature-img/how-api-work.jpg" alt="" />
@@ -98,6 +104,9 @@
       </section>
       <section id="footer"></section>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js" integrity="sha512-7Au1ULjlT8PP1Ygs6mDZh9NuQD0A5prSrAUiPHMXpU6g3UMd8qesVnhug5X4RoDr35x5upNpx0A6Sisz1LSTXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js" integrity="sha512-LQQDtPAueBcmGXKdOBcMkrhrtqM7xR2bVrnMtYZ8ImAZhFlIb5xrMqQ6uZviyeSB+4mYj89ta8niiCIQM1Gj0w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
   </body>
 </html>
